@@ -2,6 +2,8 @@
 MNIST classifier implemented in torch
 
 ## requirements
+This program has been developed on Ubuntu 14.04.
+
 - torch
 - nn
 - optim
@@ -13,6 +15,7 @@ MNIST classifier implemented in torch
 - cunn
 
 ### for GUI
+- `apt-get install qt4-default`
 - qttorch
 - qtlua
 
@@ -23,7 +26,7 @@ MNIST classifier implemented in torch
 
 ## GUI
 - `qlua mnist_gui.lua`
-- ![gui image](mnist_gui.png)
+![gui image](mnist_gui.png)
 
 ## Licence
 - MIT
